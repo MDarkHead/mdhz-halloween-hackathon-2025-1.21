@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mdhz-halloween-hackathon-2025",
+	"version": "${version}",
+	"name": "mdhz halloween hackathon 2025",
+	"description": "This is a mod for the UTD Minecraft Club Halloween Hackathon 2025 by MDarkHead",
+	"authors": [
+		"MDarkHead (Riyansh Ritesh Srivastava)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mdhz-halloween-hackathon-2025/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mdarkhead.halloweenhackathon2025.MdhzHalloweenHackathon2025"
+		],
+		"fabric-datagen": [
+			"net.mdarkhead.halloweenhackathon2025.MdhzHalloweenHackathon2025DataGenerator"
+		],
+        "client": [
+            "net.mdarkhead.halloweenhackathon2025.MdhzHalloweenHackathon2025Client"
+        ]
+	},
+	"mixins": [
+		"mdhz-halloween-hackathon-2025.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
