@@ -3,5 +3,7 @@
   "item.mdhz-halloween-hackathon-2025.raw_orange_gem": "Raw Orange Gem",
 
   "block.mdhz-halloween-hackathon-2025.orange_gem_block": "Orange Gem Block",
-  "block.mdhz-halloween-hackathon-2025.orange_gem_ore": "Orange Gem Ore Block"
+  "block.mdhz-halloween-hackathon-2025.orange_gem_ore": "Orange Gem Ore Block",
+
+  "itemgroup.MdhzHalloweenHackathon2025.mdhz_halloween_hackathon_objects": "MDHZ MC Halloween Hackathon"
 }
