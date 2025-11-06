@@ -24,7 +24,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ORANGE_GEM_BLOCK);
                         entries.add(ModBlocks.ORANGE_GEM_ORE);
 
-
                     }).build());
 
 
