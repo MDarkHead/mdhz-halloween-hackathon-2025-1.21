@@ -20,6 +20,7 @@ public class ModItemGroups {
                         //items
                         entries.add(ModItems.ORANGE_GEM);
                         entries.add(ModItems.RAW_ORANGE_GEM);
+                        entries.add(ModItems.COMET);
                         //blocks
                         entries.add(ModBlocks.ORANGE_GEM_BLOCK);
                         entries.add(ModBlocks.ORANGE_GEM_ORE);
