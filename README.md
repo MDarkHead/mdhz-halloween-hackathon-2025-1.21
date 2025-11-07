@@ -1,5 +1,5 @@
 This is for the UTD Minecraft Club Halloween Hackathon 2025.
-This isa vanilla+ mod as it only adds a few items, including a new ore, blocks, and fuel source. 
+This is a vanilla+ mod as it only adds a few items, including a new ore, blocks, and fuel source. 
 This is my first minecraft mod I've created which is why it isn't extravagant. 
 
 Special Thanks to Kaupenjoe as I've followed his tutorial while creating this mod.
