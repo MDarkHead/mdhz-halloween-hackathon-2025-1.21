@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "orange_gem",
+  "ingredient": {
+    "item": "mdhz-halloween-hackathon-2025:orange_gem_ore"
+  },
+  "result": {
+    "id": "mdhz-halloween-hackathon-2025:orange_gem"
+  }
+
+}
