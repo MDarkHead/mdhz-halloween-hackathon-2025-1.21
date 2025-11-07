@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.mdarkhead.halloweenhackathon2025.block.ModBlocks;
 import net.mdarkhead.halloweenhackathon2025.item.ModItemGroups;
 import net.mdarkhead.halloweenhackathon2025.item.ModItems;
+import net.mdarkhead.halloweenhackathon2025.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 //
@@ -18,6 +19,8 @@ public class MdhzHalloweenHackathon2025 implements ModInitializer {
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+
+        ModWorldGeneration.generateModWorldGen();
 
         FuelRegistry.INSTANCE.add(ModItems.COMET,20000);
 	}
