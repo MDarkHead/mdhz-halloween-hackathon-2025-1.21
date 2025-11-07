@@ -18,9 +18,11 @@ import net.minecraft.util.Identifier;
 public class ModBlocks{
     //blocks
     public static final Block ORANGE_GEM_BLOCK = registerBlock("orange_gem_block", new Block(AbstractBlock.Settings.create()
-            .mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.0F, 1.0F).sounds(BlockSoundGroup.METAL)));
+            .mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3f).sounds(BlockSoundGroup.METAL)));
     public static final Block ORANGE_GEM_ORE = registerBlock("orange_gem_ore", new Block(AbstractBlock.Settings.create()
-            .mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(0.5F, 3.0F).sounds(BlockSoundGroup.METAL)));
+            .mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3f).sounds(BlockSoundGroup.METAL)));
+
+
 
     //helper
     private static Block registerBlock(String name, Block block){
