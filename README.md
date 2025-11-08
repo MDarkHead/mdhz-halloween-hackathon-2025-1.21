@@ -75,9 +75,9 @@ Crafting Recipe
 		Shape
 		#: Orange Gem
 		@: Blaze Powder
-			“   @   ”
+			“ @ ”
 			“@#@”
-			“   @   ”
+			“ @ ”
 
 Smelting
 
