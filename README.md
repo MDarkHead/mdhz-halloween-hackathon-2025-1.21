@@ -15,9 +15,13 @@ Author:
 
 	MDarkHead (Riyansh Ritesh Srivastava)
 
-Minecraft Version: 1.21
+Minecraft Version: 
+	
+	1.21
 
-	Java: 21
+Java: 
+	
+	21
 
 Mod Loader: 
 
